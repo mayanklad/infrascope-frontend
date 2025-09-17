@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Upload } from 'lucide-react'
 
-export default function Homepage() {
+export default function Home() {
   const [file, setFile] = useState(null)
   const [isDragging, setIsDragging] = useState(false)
 
